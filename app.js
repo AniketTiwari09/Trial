@@ -18,8 +18,8 @@ const ejs = require('ejs');
 const app = express();
 
 //configure app
-let port = 4000; 
-let host = 'localhost';
+let port = process.env.PORT || 4000; 
+let host = '0.0.0.0';
 
 app.set('view engine', 'ejs');
 
