@@ -19,7 +19,7 @@ const app = express();
 
 //configure app
 let port = 4000; 
-let host = '161.35.234.23';
+let host = 'localhost';
 
 app.set('view engine', 'ejs');
 
